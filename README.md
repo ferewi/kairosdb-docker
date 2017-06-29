@@ -12,7 +12,7 @@ docker run -d --name some_cassandra  -e "CASSANDRA_START_RPC=true" cassandra
 ### 1. Run the image
 
 ```
-docker run -d --name some_opentsdb --link some_cassandra:cassandra -e "CASSANDRA_HOST_LIST=cassandra:9160" jimtonic/kairosdb
+docker run -d --name some_kairosdb --link some_cassandra:cassandra -e "CASSANDRA_HOST_LIST=cassandra:9160" jimtonic/kairosdb
 ```
 
 Exposed Ports:

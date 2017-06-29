@@ -1,5 +1,5 @@
 FROM ngty/archlinux-jdk7
-MAINTAINER Ferdinand Rewicki
+MAINTAINER Ferdinand Rewicki <ferdi@glasspod.de>
 
 # Install KairosDB
 WORKDIR /opt
